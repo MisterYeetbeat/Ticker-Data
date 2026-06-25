@@ -1,0 +1,57 @@
+[symbol]
+prefix = "POLYGON"
+description = "AAPL"
+ticker = "AAPL"
+currency = "USD"
+basecurrency = "USD"
+period = "15"
+type = "other"
+mintick = 0.00500000
+pricescale = 200
+minmove = 1
+pointvalue = 1.00000000
+timezone = "America/New_York"
+volumetype = "base"
+#avg_spread =
+#taker_fee =
+#maker_fee =
+#target_price_average =
+#target_price_high =
+#target_price_low =
+#target_price_date =
+
+# Opening hours
+[[opening_hours]]
+day = 1
+start = "01:00:00"
+end = "16:59:59"
+
+[[opening_hours]]
+day = 2
+start = "01:00:00"
+end = "16:59:59"
+
+[[opening_hours]]
+day = 3
+start = "01:00:00"
+end = "16:59:59"
+
+[[opening_hours]]
+day = 4
+start = "01:00:00"
+end = "16:59:59"
+
+[[opening_hours]]
+day = 5
+start = "01:00:00"
+end = "16:59:59"
+
+# Session starts
+[[session_starts]]
+day = 1
+time = "00:00:00"
+
+# Session ends
+[[session_ends]]
+day = 7
+time = "23:59:59"
